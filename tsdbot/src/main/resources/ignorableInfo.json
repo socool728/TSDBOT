@@ -1,0 +1,10 @@
+{
+  "users": [
+    "kanbot"
+  ],
+  "patterns": [
+    "^\\.meme*",
+    "^\\.movie*",
+    "^\\.smush*"
+  ]
+}

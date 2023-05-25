@@ -1,0 +1,64 @@
+{
+  "timezone": "America/New_York",
+  "scheduledBlocks": [
+    {
+      "id": "satam",
+      "cronString": "0 30 11 ? * SAT",
+      "name": "Saturday Morning Bullshit",
+      "scheduledItems": [
+        {
+          "series": "Sonic_SatAM",
+          "commercialBreakMinutes": 2
+        },
+        {
+          "series": "Recess",
+          "commercialBreakMinutes": 1
+        },
+        {
+          "series": "Recess",
+          "commercialBreakMinutes": 1
+        },
+        {
+          "series": "Saved_by_the_Bell",
+          "commercialBreakMinutes": 2
+        },
+        {
+          "series": "Swat_Kats",
+          "commercialBreakMinutes": 2
+        },
+        {
+          "series": "Sailor_Moon",
+          "commercialBreakMinutes": 0
+        }
+      ]
+    },
+    {
+    "id": "weeaboo",
+    "cronString": "0 0 21 ? * MON-THU",
+    "name": "Weeaboo Weeknights",
+    "scheduledItems": [
+      {
+        "series": "Outlaw_Star",
+        "commercialBreakMinutes": 3
+      },
+      {
+        "series": "Yu_Yu_Hakusho",
+        "commercialBreakMinutes": 3
+      },
+      {
+        "series": "Gundam_Wing",
+        "commercialBreakMinutes": 3
+      },
+      {
+        "series": "One_Punch_Man",
+        "commercialBreakMinutes": 3
+      },
+      {
+        "series": "Ghost_in_the_Shell",
+        "season": "2nd_GIG",
+        "commercialBreakMinutes": 3
+      }
+    ]
+    }
+  ]
+}

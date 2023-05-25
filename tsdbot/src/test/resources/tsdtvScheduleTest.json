@@ -1,0 +1,40 @@
+{
+  "timezone": "America/New_York",
+  "scheduledBlocks": [
+    {
+    "id": "block_one",
+    "cronString": "0 0 0 0",
+    "name": "Block One",
+    "scheduledItems": [
+      {
+        "type": "program",
+        "name": "Show One"
+      },
+      {
+        "type": "program",
+        "name": "Show Two"
+      }
+    ]
+    },
+
+    {
+      "id": "block_two",
+      "cronString": "0 1 2 3",
+      "name": "Block Two",
+      "scheduledItems": [
+        {
+          "type": "program",
+          "name": "Show Three"
+        },
+        {
+          "type": "commercial",
+          "name": "Commercial"
+        },
+        {
+          "type": "program",
+          "name": "Show Four"
+        }
+      ]
+    }
+  ]
+}
